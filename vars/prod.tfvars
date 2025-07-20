@@ -1,0 +1,18 @@
+aws_region =  "ap-south-1"
+vpc_name = "prod-vpc"
+vpc_cidr = "10.0.0.0/16"
+public_subnet_name = "public-subnet"
+public_subnet_cidr = "10.0.1.0/24"
+private_subnet_name =  "private-subnet"
+private_subnet_cidr_1 = "10.0.2.0/24"
+private_subnet_cidr_2 = "10.0.3.0/24"
+instance_ami = "ami-0b09627181c8d5778"
+instance_type = "t3.large"
+key_name = "my-dev-key"
+ec2_instance_name = "production_instance"
+
+# RDS variables 
+db_username = "admin"
+db_password = "prod123450"
+mysql_version = "8.0.41"
+mysql_instance_type = "db.t4g.small"  

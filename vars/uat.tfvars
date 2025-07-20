@@ -1,0 +1,18 @@
+aws_region =  "ap-south-1"
+vpc_name = "uat-vpc"
+vpc_cidr = "10.0.0.0/16"
+public_subnet_name = "public-subnet"
+public_subnet_cidr = "10.0.1.0/24"
+private_subnet_name =  "private-subnet"
+private_subnet_cidr_1 = "10.0.2.0/24"
+private_subnet_cidr_2 = "10.0.3.0/24"
+instance_ami = "ami-0bd8272a096575080"
+instance_type = "t2.micro"
+key_name = "my-dev-key"
+ec2_instance_name = "uat_instance"
+
+# RDS variables 
+db_username = "admin"
+db_password = "password123"
+mysql_version = "8.0.41"
+mysql_instance_type = "db.t4g.micro"  
